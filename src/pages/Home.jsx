@@ -3,7 +3,7 @@ import Card from "../components/Card";
 
 import ImagemCafe1 from "../assets/cafe1.jpg";
 import ImagemCafe2 from "../assets/cafe2.jpg";
-import ImagemCafe3 from "../assets/cafe3.jpg";
+
 import ImagemTorta from "../assets/doce1.jpg";
 
 const Home = () => {
@@ -21,12 +21,6 @@ const Home = () => {
       imagem: ImagemCafe2,
     },
     {
-      id: 3,
-      titulo: "Café Americano",
-      preco: "R$ 12,00",
-      imagem: ImagemCafe3,
-    },
-    {
       id: 4,
       titulo: "Torta",
       preco: "R$ 16,00",
@@ -36,7 +30,7 @@ const Home = () => {
 
   return (
     <main className="px-[5%] mt-10 mb-16 grow">
-      <h2 className="titulo text-3xl mb-6">
+      <h2 className="titulo text-3xl mb-6 text-[#E8D1A7]">
         PRODUTOS EM DESTAQUE
       </h2>
 
