@@ -1,11 +1,48 @@
-import React from 'react'
 
-const NavBar = () => {
+import { Link, NavLink } from "react-router-dom";
+
+export default function NavBar() {
   return (
-    <div>
-      
-    </div>
-  )
-}
+    <nav className="">
+      <div className="">
 
-export default NavBar
+        <Link
+          to="/"
+          className=""
+        >
+          <div className="">
+            <span className="">☕</span>
+          </div>
+
+          <div>
+            <h1 className="">
+              CodeCafe
+            </h1>
+            <p className="">
+              COFFEE & CODE
+            </p>
+          </div>
+        </Link>
+
+        <div className="">
+          <NavLink
+            to="/"
+            end
+            className={}
+          >
+            Home
+          </NavLink>
+
+          <NavLink
+            to="/produtos"
+            className={
+            }
+          >
+            Produtos
+          </NavLink>
+        </div>
+
+      </div>
+    </nav>
+  );
+}
