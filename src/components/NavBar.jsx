@@ -8,7 +8,7 @@ export default function NavBar() {
 
         <Link
           to="/"
-          className="group flex items-center gap-3"
+          className="group flex items-center gap-4"
         >
           <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-[#E8D1A7] text-[#442D1C] transition duration-300 group-hover:bg-[#9D9167]">
             <span className="text-2xl">☕</span>
