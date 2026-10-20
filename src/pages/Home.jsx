@@ -14,9 +14,9 @@ const Home = () => {
 
 
   return (
-    <main>
-      <h2>PRODUTOS EM DESTAQUE</h2>
-  <section>
+    <main className="px-[5%] mt-10 mb-16 grow">
+      <h2 className="titulo text-3xl">PRODUTOS EM DESTAQUE</h2>
+      <section className="grid grid-cols-[repeat(auto-fit,minmax(250px,1fr))] gap-6">
     {games.map((cafes) => (
       <GameCard
         key={cafes.id}
